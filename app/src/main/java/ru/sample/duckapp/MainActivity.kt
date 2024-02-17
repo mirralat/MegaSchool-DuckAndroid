@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun networkError(){
-        Toast.makeText(applicationContext, "Unexpected network error",
+        Toast.makeText(applicationContext, "Network error",
             Toast.LENGTH_SHORT).show()
     }
 
@@ -82,8 +82,6 @@ class MainActivity : AppCompatActivity() {
             collectDuckImage(num)
         } else if (num.isBlank()) {
             collectRandomDuck()
-        } else {
-            Toast.makeText(applicationContext, "Unexpected input", Toast.LENGTH_SHORT).show()
         }
     }
 
