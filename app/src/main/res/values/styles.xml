@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DuckButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
